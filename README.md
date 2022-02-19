@@ -18,9 +18,9 @@ A response will be returned in JSON format and will include the parameters passe
 - mg
 - g
 - kg
-- ton (Metric)
-- ton (US)
-- ton (Imperial)
+- ton (metric)
+- ton (us)
+- ton (imperial)
 - st
 
 ## Example:
