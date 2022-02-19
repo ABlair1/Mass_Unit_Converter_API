@@ -18,9 +18,9 @@ def convert_to_kgs(mass, units):
         'mg' : 0.000001,
         'g' : 0.001,
         'kg' : 1,
-        'ton (Metric)' : 1000,
-        'ton (US)' : 907.185,
-        'ton (Imperial)' : 1016.05,
+        'ton (metric)' : 1000,
+        'ton (us)' : 907.185,
+        'ton (imperial)' : 1016.05,
         'st' : 6.35029,
     }
     return float(mass) * to_kgs[units]
@@ -36,9 +36,9 @@ def convert_from_kgs(mass, units):
         'mg' : 1000000,
         'g' : 1000,
         'kg' : 1,
-        'ton (Metric)' : 0.001,
-        'ton (US)' : 0.00110231,
-        'ton (Imperial)' : 0.000984207,
+        'ton (metric)' : 0.001,
+        'ton (us)' : 0.00110231,
+        'ton (imperial)' : 0.000984207,
         'st' : 0.157473,
     }
     return float(mass) * from_kgs[units]
